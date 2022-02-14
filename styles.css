@@ -1,0 +1,60 @@
+body { 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:brown;
+    font-size: medium;
+    font-weight: 700;
+}
+
+h1 {
+    background-image: url("./images/veluwe.jpg");
+    position:sticky;    
+    padding: 25px;
+    background-repeat: no-repeat;
+    color: red;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.container-flexmarks {
+    background-color: #ffc200;
+    display: flex;
+    margin: 20px;
+    margin-top: 50px;
+    color: burlywood;
+  }
+  
+  .flexmark-1, .flexmark-2, .flexmark-3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    color: brown;
+    background-color: white;
+    padding: 25px;
+    margin: 10px;
+    height: 100px;
+    overflow: hidden;
+    flex: 1;
+    flex-basis: 250px;
+  }
+
+.flexmark-2 {
+    flex: 2;
+    flex-basis: 500px;
+}
+
+.column {
+    background-color: blueviolet;
+    margin: 10px;
+    float: left;
+    padding: 10px;
+    width: 300px;
+}
+
+.column-different {
+    background-color: blueviolet;
+    margin: 10px;
+    padding: 10px;
+    display: inline-block;
+    color: whitesmoke;
+    width: 300px;
+}
+
