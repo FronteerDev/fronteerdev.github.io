@@ -6,7 +6,7 @@ body {
 }
 
 h1 {
-    background-image: url("veluwe.jpg");
+    background-image: url("./veluwe.jpg");
     position:sticky;    
     padding: 25px;
     background-repeat: no-repeat;
